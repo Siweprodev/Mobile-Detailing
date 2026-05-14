@@ -1,0 +1,72 @@
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 40px;
+
+    background-color:black;
+
+    color:#E2B221;
+    position: sticky;
+ top: 0;
+  z-index: 1000;
+}
+
+.logo {
+
+    font-size: 28px;
+
+    font-weight: bold;
+}
+
+.nav-links {
+
+    display: flex;
+
+    list-style: none;
+
+    gap: 30px;
+}
+
+.nav-links li {
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.nav-links li:hover {
+
+    color: gold;
+}
+
+.logo-container {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.logo-image {
+
+    width: 60px;
+
+    height: 60px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.logo-text {
+
+    font-size: 24px;
+
+    font-weight: bold;
+}

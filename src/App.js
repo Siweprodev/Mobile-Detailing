@@ -1,13 +1,21 @@
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import Services from "./Components/Services";
+
 function App() {
 
   return (
+
     <div>
 
-      <h1>Mobile Detailing Website</h1>
+      <Navbar />
 
-      <p>My first React app</p>
+      <Hero />
+
+      <Services />
 
     </div>
+
   );
 }
 
