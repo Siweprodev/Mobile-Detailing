@@ -43,6 +43,7 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .section-title {
@@ -63,8 +64,9 @@
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
 }
 
 .service-card {
@@ -123,4 +125,22 @@
     color: #ffd700;
     display: block;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+  .services {
+    padding: 40px 15px;
+  }
+
+  .service-card {
+    padding: 15px;
+  }
+
+  .services h2 {
+    font-size: 1.8rem;
+  }
+
+  .services p {
+    font-size: 0.9rem;
+  }
 }

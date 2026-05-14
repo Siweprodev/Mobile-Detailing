@@ -17,6 +17,8 @@
     text-align: center;
 
     color: white;
+     position: relative;
+  overflow: hidden;
 }
 
 .hero-content {
@@ -78,4 +80,30 @@
     /* This line is the secret to making it look like background-size: cover */
     object-fit: cover; 
     z-index: -1; /* Pushes the video behind your text */
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+    padding: 0 15px;
+  }
+
+  .hero-content {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero-button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
 }
