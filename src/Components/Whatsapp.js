@@ -1,8 +1,9 @@
 import "./Whatsapp.css";
+import { FaWhatsapp } from "react-icons/fa";
 
 function WhatsApp() {
 
-  const phoneNumber = "+27720757744";
+  const phoneNumber = "+27720757744"; // Replace with your WhatsApp number
 
   const message =
     "Hi, I would like to book a car detailing service.";
@@ -17,7 +18,7 @@ function WhatsApp() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      💬
+      <FaWhatsapp />
     </a>
   );
 }
